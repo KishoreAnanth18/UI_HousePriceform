@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>California house price prediction website</title>
+
+    <!-- add favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+    <!-- add css styling -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/mquery.css" />
+
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Code the whole project so you will be able to learn the things that I have shown to the video: https://youtu.be/sqM6nsSXa64 -->
+
+    <section>
+      <div class="box">
+        <div class="form">
+          <div class="top">
+            <h3>Welcome to <span>house price prediction</span></h3>
+            <p>Welcome back! Enter the required values to predict the price</p>
+          </div>
+
+          <form method="post">
+            <div class="info">
+              <i class="fas fa-hand-holding-usd"></i>
+              <input
+                type="Median Income"
+                name="Median Income"
+                id="Median Income"
+                placeholder="Median Income"
+              />
+              <i class="fas fa-home"></i>
+              <input
+                type="Median House Age"
+                name="Median House Age"
+                id="Median House Age"
+                placeholder="Median House Age"
+              />
+              <i class="fas fa-door-open"></i>
+              <input
+                type="Average Number of Rooms"
+                name="Average Number of Rooms"
+                id="Average Number of Rooms"
+                placeholder="Average Number of Rooms"
+              />
+              <i class="fas fa-bed"></i>
+              <input
+                type="Average Number of Bedrooms"
+                name="Average Number of Bedrooms"
+                id="Average Number of Bedrooms"
+                placeholder="Average Number of Bedrooms"
+              />
+              <i class="fas fa-users"></i>
+              <input
+                type="Population"
+                name="Population"
+                id="Population"
+                placeholder="Population"
+              />
+              <i class="fas fa-user-plus"></i>
+              <input
+                type="Average Number of Household Members"
+                name="Average Number of Household Members"
+                id="Average Number of Household Members"
+                placeholder="Average Number of Household Members"
+              />
+              <i class="fas fa-globe"></i>
+              <input
+                type="Latitude"
+                name="Latitude"
+                id="Latitude"
+                placeholder="Latitude"
+              />
+              <i class="fas fa-globe-americas"></i>
+              <input
+                type="Longitute"
+                name="Longitute"
+                id="Longitute"
+                placeholder="Longitute"
+              />
+            </div>
+
+            <div class="action">
+              <input type="submit" name="submit" class="btn" value="Predict" />
+            </div>
+          </form>
+        </div>
+
+        <div class="placeholder__img"></div>
+      </div>
+    </section>
+  </body>
+</html>
